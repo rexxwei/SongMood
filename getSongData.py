@@ -10,9 +10,7 @@ import pandas as pd
 import time
 from spotipy.oauth2 import SpotifyClientCredentials
 
-
 client_credentials_manager = SpotifyClientCredentials(client_id='insert_id', client_secret='insert_secret')
-
 
 def show_tracks(tracks):
     for i, item in enumerate(tracks['items']):
